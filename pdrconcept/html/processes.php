@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	      <div class="row"><!--PROCESS GALLERY -->
+		<div class="col-sm-2">
+			<?php $id = 1; ?>
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  <img src="/pdrconcept/images/axialdrill.jpg" alt= "Offset drilling" style="width:100%">
+		    <!--  <div class="caption">
+			<p>Universal driven tool milling on two+one CNC machining
+			  centre.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal"
+					   ><img src="/pdrconcept/images/axisthree.jpg" alt=
+								 "Turn mill" style="width:100%">
+		     <!-- <div class="caption">
+			<p>Precision turning on two+one and two axis CNC lathes.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal"
+					    ><img src="/pdrconcept/images/axisfive.jpg" alt=
+								 "Five axis machining" style="width:100%">
+		  <!--    <div class="caption">
+			<p>Precision five axis contour and three+two axis CNC
+			  machining.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal" >
+		  	<img src="/pdrconcept/images/plasmacutting.jpg" alt="CNC plasma cutting"
+													 style="width:100%">
+		   <!--   <div class="caption">
+			<p>Full scale CNC control plasma and oxy-acetylene cutting.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/brakepresstooling.jpg" alt=
+							  "Brake press tooling" style="width:100%">
+		   <!--   <div class="caption">
+			<p>Brake press and tooling for various bending profiles.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		
+				<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  <img src="/pdrconcept/images/crankgrinding.jpg" alt="Crankshaft grinding" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+
+		</div>
+	<div class="row"><!--PROCESS GALLERY -->
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src= "/pdrconcept/images/rotaryrouting.jpg" alt="Rotary routing" style=
+													 "width:100%">
+	<!--	      <div class="caption">
+			<p>Contour two+one CNC rotary router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/wooddecor.jpg" alt=
+								 "Wood decor" style="width:100%">
+	<!--	      <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/SurfaceGrinding.jpg" alt=
+								 "Precision Grinding" style="width:100%">
+		<!--      <div class="caption">
+			<p>Precision grinding</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/heattreatment.jpg" alt=
+								 "Salt bath furnace" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/hardchrome.jpg" alt=
+								 "Hard chrome plating" style="width:100%">
+		      <!--<div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		    
+		   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/anodize.jpg" alt=
+								 "Aluminiun anodising" style="width:100%">
+		<!--      <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   </div>
+		 <div class="row"><!--PROCESS GALLERY --> 
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/carbidedie.jpg" alt=
+								 "Carbide dies" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/geargrinding.jpg" alt=
+								 "Carbide dies" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+
+		   	   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/convesofabunkd.jpg" alt=
+								 "Conversofa" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   		   	   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/deepdraws.jpg" alt=
+								 "Deep drawing" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   		   		   	   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/zincdraws.jpg" alt=
+								 "Zinc electroplating" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   		   		   		   	   	<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  	<img src="/pdrconcept/images/absplastic.jpg" alt=
+								 "Plastic injection" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		  
+	    </div>
+		
+		 <div class="row"><!--PROCESS GALLERY --> 
+		 
+		 <div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  <img src="/pdrconcept/images/steelcasting.jpg" alt="Steel casting" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		   
+		 <div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  <img src="/pdrconcept/images/specwelding.jpg" alt="TIG welding" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		 
+		 
+		 <div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  <img src="/pdrconcept/images/plasticinjectionmold.jpg" alt="Plastic injection mold" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail1" data-toggle="modal">
+		  <img src="/pdrconcept/images/motorrewind.jpg" alt="Motor rewinding" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail3" data-toggle="modal">
+		  <img src="/pdrconcept/images/machinerefurbish.jpg" alt="Machine refurbish" style="width:100%">
+		 <!--     <div class="caption">
+			<p>Contour full three axis router decor machining on wood.</p>
+		      </div>-->
+		  </a></div>
+		   </div>
+		   
+		<div class="col-sm-2">
+		  <div class="thumbnail"><a href="#Detail2" data-toggle="modal">
+						<img src="/pdrconcept/images/guillotinepowershear.jpg"	  alt="Shearing" style="width:100%">
+<!--		      <div class="caption">
+			<p>Hydraulic power guillotine shear press with CNC backplate.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+		 
+		 
+		 		   
+		<div class="col-sm-2">
+		  <div class="thumbnail">
+						<img src="/pdrconcept/images/guillotinepowershear.jpg"	alt="Shearing" style="width:100%" onClick="myFunction()" >
+<!--		      <div class="caption">
+			<p>Hydraulic power guillotine shear press with CNC backplate.</p>
+		      </div>-->
+		  </a></div>
+		</div>
+
+	<script>
+		function myFunction() {
+			location.replace("html/pdrintro.html")
+		}
+	</script>
+
+
+</div> <!-- ROW-->
+		
+		
+		<div>
+		</div>
+</html>

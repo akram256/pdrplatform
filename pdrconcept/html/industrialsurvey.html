@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html>
+
+<form action="php/php_is_input.php" method="post">
+
+	<p>Welcome to this very important survey with which we researchers
+		want to look deep inside of our technical human resource development
+		potential. This survey is conducted under the MAPRONANO ACE in the
+		Department of Mechanical Engineering, College of Engineering Design
+		Art and Technology, Makerere University.</p>
+
+	<div id="first">
+		<ol>
+			<li>What is your manufacturing sector?
+				<div class="input-group">
+					<span class="input-group-addon">Text</span> <input id="msg"
+						type="text" class="form-control" name="indsector"
+						placeholder="What is your manufacturing sector?">
+				</div>
+			</li>
+
+			<li>If your industry is involved with manufacturing, what
+				category of products do you make?
+				<div class="form-row">
+					<div class="col-md-6">
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[plastics]" value="1">Plastics</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[clay products]" value="1">Clay products</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[sheetmetal]" value="1">Sheetmetal
+								fabrication</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[agro-processing]" value="1">Agro-processing</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[electricals]" value="1">Electrical
+								services</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[electronics]" value="1">Electronics
+								services</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[metal pressing]" value="1">Metal
+								pressing</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[Metallic surface finishing]" value="1">Metallic
+								surface finishing</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[synthetic surface finishing]" value="1">Synthetic
+								surface finishing</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[metal casting]" value="1">Metal casting</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[composite molding]" value="1">Composite
+								molding</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[machine building]" value="1">Machine
+								building</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio30[other]" value="1" checked>Other</label>
+						</div>
+					</div>
+				</div>
+			</li> 
+			<li><b>Please tell us a bit about yourself</b>
+			<div class="form-row">
+				<div class="col-md-6">
+					<input type="text" class="form-control" name="fname"
+						placeholder="First name">
+				</div>
+				<div class="col-md-6">
+					<input type="text" class="form-control" name="lname"
+						placeholder="Last name">
+				</div>
+			</div>
+			<li>If you would like to receive the outcome of this survey,
+				share your email address below
+				<div class="input-group">
+					<span class="input-group-addon"><b>e-mail</b></span> <input
+						id="msg" type="text" class="form-control" name="email"
+						placeholder="something@mail.com">
+				</div>
+			</li>
+
+			<li>
+				<div>
+					How old are you? <label class="radio-inline"> <input
+						type="radio" name="age" value="20-30 years">20-30 years
+					</label> <label class="radio-inline"><input type="radio" name="age"
+						value="30-45 years" checked>30-45 years </label> <label
+						class="radio-inline"><input type="radio" name="age"
+						value="above 45 years">Above 45 years</label>
+				</div>
+			</li>
+
+			<li>Gender? <label class="radio-inline"> <input
+					type="radio" name="gender" value="male" checked>Male
+			</label> <label class="radio-inline"><input type="radio"
+					name="gender" value="female">Female </label> <label
+				class="radio-inline"><input type="radio" name="gender"
+					value="other">Other</label>
+			</li>
+
+			<li>Are you in a good mood to tell us about yourself?
+				<div class="form-row">
+					<div class="col-md-3">
+						<label class="radio-inline"><input type="radio"
+							name="mood" checked>Absolutely</label>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="mood"> Not really, because </label>
+					</div>
+					<div class="col-md-5">
+						<input type="text" class="form-control" name="moodcomment"
+							placeholder="I am not well because...">
+					</div>
+				</div>
+			</li>
+
+			<li>Do you like having options about your work environment? <label
+				class="radio-inline"><input type="radio" name="opinion"
+					value="yes" checked>Yes, I like more autonomy. </label> <label
+				class="radio-inline"><input type="radio" name="opinion"
+					value="no">No, someone else should decide. </label> <label
+				class="radio-inline"><input type="radio" name="opinion"
+					value="unsure">Not sure. </label>
+			</li>
+
+			<li>What is the level of your technical formal training?
+				<div class="form-row">
+					<div class="col-md-6">
+						<div class="radio">
+							<label><input type="radio" name="traininglevel"
+								value="jobtrained">Job trained</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="traininglevel"
+								value="certificate">Certificate level</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="traininglevel"
+								value="diploma">Diploma level</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="radio">
+							<label><input type="radio" name="traininglevel"
+								value="bachelors">Bachelors degree</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="traininglevel"
+								value="masters">Masters degree</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="traininglevel"
+								value="advanced" checked>Advanced degree</label>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li>Are you the overall technical leader of your production
+				team? <label class="radio-inline"><input type="radio"
+					name="overalleader" value="yes"> Yes </label> <label
+				class="radio-inline"><input type="radio" name="overalleader"
+					value="no" checked> No </label>
+			</li>
+
+			<li>At what level do you think the overall technical leader of
+				your production team is within the Company's hierarchy?
+				<div class="form-row">
+					<label class="checkbox-inline"> <input type="checkbox"
+						name="mgtlevel" value="management" checked>Management
+						Level
+					</label> <input type="range" class="form-control-range" name="mgtrange"
+						value="30"> <label class="checkbox-inline"><input
+						type="checkbox" name="oplevel" value="opinion" checked>Opinion
+						Level </label> <input type="range" class="form-control-range"
+						name="oprange" value="15"> <label class="checkbox-inline"><input
+						type="checkbox" name="leaderlevel" value="leadership" checked>Leadership
+						Level </label> <input type="range" class="form-control-range"
+						name="leaderrange" value="21">
+				</div>
+			</li>
+		</ol>
+	</div>
+	<ol></ol>
+	<div id="second" style="display: none">
+		<ol>
+			<li>Where do you get additional technical services in case of
+				repairs on the production line?
+				<div class="form-row">
+					<div class="col-md-4">
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio31[]" value="In-house maintenance team">In-house
+								maintenance team</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio31[]" value="Outsource locally">Outsource
+								locally</label>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio31[]" value="Outsource internationally">Outsource
+								internationally</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio31[]" value="Do maintenance myself">Do
+								maintenance myself</label>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio31[]" value="Replace with new parts">Replace
+								with new parts</label>
+						</div>
+						<div class="form-check">
+							<label class="checkbox-inline"><input type="checkbox"
+								name="optradio31[]" value="Do not do maintenance" checked>Do
+								not do maintenance</label>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li>Are the equipment of your production line locally common to
+				other production companies in the same type of industry?
+				<div class="form-row">
+					<div class="col-md-3">
+						<label class="radio-inline"> <input type="radio"
+							name="equipment" value="All equipment locally common" checked>
+							All
+						</label>
+					</div>
+					<div class="col-md-3">
+						<label class="radio-inline"> <input type="radio"
+							name="equipment" value="No equuipment locally common">
+							None
+						</label>
+					</div>
+					<div class="col-md-3">
+						<label class="radio-inline"> <input type="radio"
+							name="equipment" value="A few equipment locally common">
+							A few
+						</label>
+					</div>
+					<div class="col-md-3">
+						<label class="radio-inline"> <input type="radio"
+							name="equipment" value="Many equipment locally common">
+							Many
+						</label>
+					</div>
+				</div>
+			</li>
+
+			<li>If your type of equipment is common in the local industry,
+				how do your competitors handle their maintenance?
+				<div class="form-row">
+					<div class="col-md-3">
+						<label class="radio-inline"><input type="radio"
+							name="commonequip" value="Common equipment maintained as we do"
+							checked>Same as we do</label>
+					</div>
+					<div class="col-md-3">
+						<label class="radio-inline"><input type="radio"
+							name="commonequip"
+							value="Common equipment maintained better than we do">Better
+							than we do</label>
+					</div>
+					<div class="col-md-3">
+						<label class="radio-inline"><input type="radio"
+							name="commonequip" value="Common equipment maintenance not known">Not
+							known how</label>
+					</div>
+					<div class="col-md-3">
+						<label class="radio-inline"><input type="radio"
+							name="commonequip"
+							value="Common equipment not maintained as we do">No as
+							well as we do</label>
+					</div>
+				</div>
+			</li>
+
+			<li>How do you rate the level of technology of your production
+				process, compared across your industrial sector?
+				<div class="form-row">
+					<div class="col-md-4">
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level same as competitors" checked>Same
+								as competitors</label>
+						</div>
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level more advanced than competitors">More
+								advanced than competitors</label>
+						</div>
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level new and always evolving">New and
+								always evolving</label>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level old and easier to operate">Old
+								and easier to operate</label>
+						</div>
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level old and harder to operate">Old
+								and harder to operate</label>
+						</div>
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel" value="Technology level easy to maintain">Easy
+								to maintain</label>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level of higher production capacity">Higher
+								production capacity</label>
+						</div>
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level of lower production capacity">Lower
+								production capacity</label>
+						</div>
+						<div>
+							<label class="radio-inline"><input type="radio"
+								name="ratetechlevel"
+								value="Technology level is available and easy to get">Available
+								and easy to get</label>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li>Are the decision makers in your plant technically able to
+				provide you with new technical solutions to address new market
+				needs?
+				<div class="col-md-12">
+					<label class="radio-inline"> <input type="radio"
+						name="optradio4" checked
+						value="Decision makers technically capable"> Yes
+					</label> <label class="radio-inline"> <input type="radio"
+						name="optradio4" value="Decision makers not technically capable">
+						No
+					</label>
+				</div>
+			</li>
+
+			<li>In what form do you conduct or consume new technical
+				solutions?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio5[job training sessions]" checked>Job
+							training sessions
+						</label> <input type="range" class="form-control-range"
+							name="optradio5[job training sessions].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio5[computer aided dsigns]">CAD designs </label> <input
+							type="range" class="form-control-range"
+							name="optradio5[computer aided dsigns].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio5[product development]">Product development
+							time</label> <input type="range" class="form-control-range"
+							name="optradio5[product development].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio5[external trainer courses]">External
+							trainer courses</label> <input type="range" class="form-control-range"
+							name="optradio5[external trainer courses].$value">
+					</div>
+				</div>
+			</li>
+
+			<li>Would you require advanced technical solutions in any of the
+				fields below?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio6[CAD for parts and tooling]"> CAD for
+							parts and tooling
+						</label> <input type="range" class="form-control-range"
+							value="optradio6[CAD for parts and tooling].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio6[CAD equipment designs]"> CAD equipment
+							designs </label> <input type="range" class="form-control-range"
+							value="optradio6[CAD equipment designs].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio6[Products dynamics modelling]"> Products
+							dynamics modelling </label> <input type="range"
+							class="form-control-range"
+							value="optradio6[Products dynamics modelling].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio6[Heatflow optimisation analysis]">
+							Heatflow optimisation analysis</label> <input type="range"
+							class="form-control-range"
+							value="optradio6[Heatflow optimisation analysis].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio6[Die and tool design]"> Die and tool
+							design </label> <input type="range" class="form-control-range"
+							value="optradio6[Die and tool design].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio6[External process experts]"> External
+							process experts</label> <input type="range" class="form-control-range"
+							value="optradio6[External process experts].$value">
+					</div>
+				</div>
+			</li>
+
+			<li>Are you capable of diversifying your product range if you
+				are supported with the necessary tooling?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio6[Fully independently capable]">Fully
+							independently capable
+						</label> <input type="range" class="form-control-range"
+							value="optradio6[Fully independently capable].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio6[Need additional HR support]">Need
+							additional HR support</label> <input type="range"
+							class="form-control-range"
+							value="optradio6[Need additional HR support].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio6[Need expensive equipment]">Need expensive
+							equipment</label> <input type="range" class="form-control-range"
+							value="optradio6[Need expensive equipment].$value"> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio6[Not capable of diversification]">Not
+							capable of diversification</label> <input type="range"
+							class="form-control-range"
+							value="optradio6[Not capable of diversification].$value">
+					</div>
+				</div>
+			</li>
+
+		</ol>
+	</div>
+	<!-- Second-->
+	<ol></ol>
+	<div id="third" style="display: none">
+		<ol>
+			<li>In your production process, how many sub-processes are
+				involved?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio7" value="Production is one or two processes"
+							checked>One or two processes </label><br> <label
+							class="radio-inline"><input type="radio" name="optradio7"
+							value="Production is more than two processes"> More than
+							two processes</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio7" value="Production is variable product processes">
+							Variable product processes</label><br> <label class="radio-inline"><input
+							type="radio" name="optradio7"
+							value="Some production processes outsourced">Other
+							processes outsourced</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio7" value="No specialised production equipment">No
+							specialised equipment used</label><br> <label class="radio-inline"><input
+							type="radio" name="optradio7"
+							value="Production is series processes">Series continuous
+							processes</label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>Are the teams able to improve the production process(es)
+				beyond the OEM capacity?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio8"
+							value="Teams able to improve production processes" checked>
+							Yes
+						</label>
+					</div>
+					<div class="col-md-8">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio8"
+							value="Teams unable to improve production processes"> No
+						</label>
+					</div>
+				</div>
+			</li>
+
+			<li>Are the equipment and processes used according to the
+				original OEM specifications?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[Processes used as exactly specified]" checked>Used
+							as exactly specified </label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio9[Some process exceptions are made]">Some
+							exceptions are made</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[Many process changes have been made]">Many
+							changes have been made</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio9[Equipment operate at full capacity]">Equipment
+							operates at full capacity</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[Process capacity has deteriorated]">Capacity
+							has deteriorated</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio9[One or more equipment out of use]">One or
+							more equipment out of use</label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>Are there changes that you know, that can be done to improve
+				the production process?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[New changes are required]" checked>New
+							changes are required</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio9[Changes can be made internally]">Changes
+							can be made internally</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[Changes needed, but lack capacity]">Changes
+							needed, but lack capacity</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio9[Technical capacity needed is expensive]">Capacity
+							needed is expensive</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[Technical capacity not prioritised]">Technical
+							capacity not prioritised</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio9[Training beyond existing resources]">Training
+							beyond existing resources</label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>How would you rate the capacity to internally make the
+				necessary changes?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[The internal teams can be given a chance to improve the process(es)]"
+							checked> The internal teams need a chance to improve the
+							process</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio9[Company has no internal capacity to make necessary changes]">Company
+							has no internal capacity to make changes</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio9[Other Companies have processes required to make the changes]">Other
+							Companies have capacity to make our changes</label><br>
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[The resources required are not available from known Companies]">Resources
+							required unavailable from local Companies</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio9[The OEM supports all significant technical requirements locally]">OEM
+							supports all significant technical requirements locally </label><br>
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio9[The OEM supports all significant technical requirements locally]">OEM
+							supports all significant technical requirements locally </label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>What challenges do you experience that hinder the ability to
+				solve your technical challenges, in regard to developing capacity to
+				improve and diversify your range of products?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Lack of linkages to local experts to support the required changes]"
+							checked> No linkages to local experts to support required
+							changes</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio10[Do not know of local technical experts to make the changes]">
+							Do not know the local experts to make the changes</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Local solutions are more expensive than international solutions]">
+							Local solutions more expensive than international ones</label><br>
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Local competition leads to foreign reliance to keep ahead]">
+							Local competition leads to foreign reliance to keep ahead</label><br>
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Lack of knowledge about the technical processes by local experts]">
+							Local experts lack knowledge on the technical processes</label><br>
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Lack forum to interact with other stakeholders with similar challenges]">
+							No stakeholder forum to interact on similar challenges</label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>Are your technical experts able to share their expertise
+				with other local experts, about their production processes?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Our experts make outreach efforts to academia about our technologies]"
+							checked> Our experts reachout to academia about our
+							technologies</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio10[Our experts can meet and exchange knowledge with local professionals]">
+							Our experts can share expertise with local professionals</label><br>
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[The experts keep the information for competitiveness reasons]">
+							The experts hold information for competitiveness reasons</label><br>
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[No professionals have expressed interest in our technical areas]">
+							No professionals have expressed interest in our processes</label><br>
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Our experts would like to train upcoming professionals]">
+							Our experts would like to train upcoming professionals</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[We like to support knowledgeable professionals to provide the technical services]">
+							We support professionals to outsource needed support</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Our experts would like to hear from the local professionals and experts]">
+							Our experts would like to hear from the local experts</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Our experts would like to support creating a local interaction forum with other experts]">
+							Our experts would support creating an interaction forum</label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>May you select of any of these vital manufacturing
+				technologies used in supporting your industry that are not available
+				with your local techncial support?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Making process molds, dies and tools]">
+							Making molds, dies and tools</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Advanced hardened metal die making]">
+							Hardened metal die making</label><br> <label class="checkbox-inline"><input
+							type="checkbox"
+							name="optradio10[CNC machining for tools and molds]"> CNC
+							machining for tools and molds</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[PLC process control technologies]"> PLC
+							process control technologies</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Hydraulics and pneumatics]"> Hydraulics
+							and pneumatics </label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Electric discharge machining]"> Electric
+							discharge machining </label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Die casting metal alloys]">
+							Die casting metal alloys</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Sintered metal carbide dies]">
+							Sintered metal carbide dies</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio10[Drop forging processes]"> Drop forging
+							processes</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Plasma CNC cutting]">
+							Plasma CNC cutting</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio10[TIG/MIG/Spot welding]"> TIG/MIG/Spot
+							welding</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Hard chrome plating]">
+							Hard chrome plating</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Electro zinc plating]">
+							Electro zinc plating</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Aluminium anodising]">
+							Aluminium anodising</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[Engineered timber making]">
+							Engineered timber making</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio10[CNC wood 3 and 4 axis decor]">
+							CNC wood 3 and 4 axis decor</label><br>
+					</div>
+				</div>
+			</li>
+
+		</ol>
+	</div>
+	<!-- Third -->
+	<div id="fourth" style="display:none">
+		<ol>
+			<li>What is the size of work that is done in your production
+				centre?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio12" checked>Few parts for market</label><br> <label
+							class="radio-inline"><input type="radio"
+							name="optradio12">Parts as ordered by customers</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio12">We are the only local supplier</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio12">Very large volume as required<br></label><br>
+						<label><br></label>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<p>Who decides what is made in your company?</p>
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio13" checked>Process fixed to available
+							tooling</label><br> <label class="radio-inline"><input
+							type="radio" name="optradio13">Marketing teams bring new
+							needs</label><br> <label class="radio-inline"><input
+							type="radio" name="optradio13">New tooling made in-house</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio13">Tooling sourced locally</label><br> <label
+							class="radio-inline"><input type="radio"
+							name="optradio13">Tooling sourced internationally</label><br>
+						<label class="radio-inline"><input type="radio"
+							name="optradio13">Periodic tooling upgrades</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"><input type="radio"
+							name="optradio13">In-house design teams</label><br> <label
+							class="radio-inline"><input type="radio"
+							name="optradio13">Locally procured design teams</label><br>
+						<label><br></label>
+					</div>
+				</div>
+			</li>
+
+			<li>Are you products cost competitive in the market, how do you
+				compare?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio14[Between 10 - 20% higher]" value="1" checked>
+							Between 10 - 20% higher </label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio14[Between 21 - 40% higher]"
+							value="1"> Between 21 - 40% higher</label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio14[Much higher than 40%]" value="1"> Much
+							higher than 40%</label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio14[Between 10 - 20% lower]"
+							value="1"> Between 10 - 20% lower </label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio14[Between 21 - 40% lower]" value="1">
+							Between 21 - 40% lower </label><br> <label class="checkbox-inline"><input
+							type="checkbox" name="optradio14[Much lower than 40%]" value="1">
+							Much lower than 40% </label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>Are the products you make excessively available on the
+				market from other makers?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio15[We are the only local producer]" value="1"
+							checked> We are the only local producer </label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio15[Less than 03 local producers]" value="1">
+							Less than 03 local producers </label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio15[Less than 10 local producers]" value="1">
+							Less than 10 local producers </label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio15[More than 10 local producers]" value="1">
+							More than 10 local producers </label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio15[Few international producers]" value="1">
+							Few international producers </label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio15[Many international producers]" value="1">
+							Many international producers </label><br>
+					</div>
+				</div>
+			</li>
+			<li>What is the relative cost of maintenance to the total cost
+				of production for the plant?
+				<div class="form-row">
+					<div class="col-md-3">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio16[Between 5 - 10%]" value="1" checked>
+							Between 5 - 10% </label>
+					</div>
+					<div class="col-md-3">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio16[Between 10 - 30%]" value="1"> Between 10
+							- 30% </label>
+					</div>
+					<div class="col-md-3">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio16[Between 30 - 80%]" value="1"> Between 30
+							- 80% </label>
+					</div>
+					<div class="col-md-3">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio16[More than 80%]" value="1"> More than 80%
+						</label>
+					</div>
+				</div>
+			</li>
+
+			<li>How do you rate the running time of your production
+				process(es) per day to the rated capacity of the plant?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio17[Plant runs only one daytime shift]" value="1"
+							checked> Plant runs only one daytime shift</label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio17[Plant runs two day and night shifts]" value="1">
+							Plant runs two day and night shifts </label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio17[Plant runs three full time shifts]" value="1">
+							Plant runs three full time shifts </label><br> <label
+							class="checkbox-inline"><input type="checkbox"
+							name="optradio17[Plant is run below its single shift capacity]"
+							value="1"> Plant is below single shift capacity </label><br>
+					</div>
+					<div class="col-md-4">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio17[Plant is run at single shift capacity]"
+							value="1"> Plant runs at single shift capacity </label><br>
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio17[Plant is run beyond its rated capacity]"
+							value="1"> Plant runs above rated capacity </label><br>
+					</div>
+				</div>
+			</li>
+
+			<li>Since you started production have you been able to
+				independently diversify your OEM processes without seeking external
+				help?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio18[We have independently diversified]"> We
+							have independently diversified
+						</label> <input type="range"
+							name="optradio18[We have independently diversified].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio18[We import diversification inputs]"> We
+							import diversification inputs
+						</label> <input type="range"
+							name="optradio18[We import diversification inputs].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio18[We source diversification inputs locally]">
+							We source diversification inputs locally
+						</label> <input type="range"
+							name="optradio18[We source diversification inputs locally].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio18[We have never changed the products]"> We
+							have never changed the products
+						</label> <input type="range"
+							name="optradio18[We have never changed the products].$value">
+					</div>
+				</div>
+			</li>
+
+
+
+			<li>Is the number of manpower used by your production plant
+				sufficient to run the plant to full capacity?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio19[Plant runs with required manpower]">
+							Plant runs with required manpower
+						</label> <input type="range"
+							name="optradio19[Plant runs with required manpower].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio19[Plant runs fully with less manpower]">
+							Plant runs fully with less manpower
+						</label> <input type="range"
+							name="optradio19[Plant runs fully with less manpower].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio19[Less manpower and under capacity]"> Less
+							manpower and under capacity
+						</label> <input type="range"
+							name="optradio19[Less manpower and under capacity].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio19[More manpower than is necessary]"> More
+							manpower than is necessary
+						</label> <input type="range"
+							name="optradio19[More manpower than is necessary].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio19[More manpower and is inexpensive to maintain]">
+							More manpower and is inexpensive to maintain
+						</label> <input type="range"
+							name="optradio19[More manpower and is inexpensive to maintain].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio19[More manpower and is expensive to maintain]">
+							More manpower and is expensive to maintain
+						</label> <input type="range"
+							name="optradio19[More manpower and is expensive to maintain].$value">
+					</div>
+				</div>
+			</li>
+
+		</ol>
+	</div>
+	<!-- fourth -->
+	<ol></ol>
+	<div id="fifth" style="display: none">
+		<ol>
+			<li>Would the market welcome diversification of your products?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio20[Market welcomes diversification]" checked>Market
+							welcomes diversification
+						</label> <input type="range"
+							name="optradio20[Market welcomes diversification].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio20[Market requests for diversification]">Market
+							requests for diversification</label> <input type="range"
+							name="optradio20[Market requests for diversification].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio20[Market has more diversified competition]">Market
+							has more diversified competition</label> <input type="range"
+							name="optradio20[Market has more diversified competition].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio20[Market not interested in diversification]">Market
+							not interested in diversification</label> <input type="range"
+							name="optradio20[Market not interested in diversification].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio20[Market is new product driven]">Market is
+							new product driven and adapts easily</label> <input type="range"
+							name="optradio20[Market is new product driven].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio20[Market is saturated needs diversification]">Market
+							is saturated needs diversification</label> <input type="range"
+							name="optradio20[Market is saturated needs diversification].$value">
+					</div>
+				</div>
+			</li>
+
+
+			<li>Would the introduction of diversified products into the
+				market improve the profitability of your production plant, and how
+				are you certain of your future market performance?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio21[Market is large and can absorb more producers]"
+							checked> Market is large and can absorb more producers
+						</label> <input type="range"
+							name="optradio21[Market is large and can absorb more producers].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio21[Market will fall when more producers emerge]">
+							Market will fall when more producers emerge</label> <input type="range"
+							name="optradio21[Market will fall when more producers emerge].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio21[Market unaware and still imports what we make]">
+							Market unaware and still imports what we make</label> <input type="range"
+							name="optradio21[Market unaware and still imports what we make].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio21[Better quality imports out-compete our products]">
+							Better quality imports out-compete our products</label> <input
+							type="range"
+							name="optradio21[Better quality imports out-compete our products].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio21[Our products are better quality and dominate market]">
+							Our products are better quality and dominate market</label> <input
+							type="range"
+							name="optradio21[Our products are better quality and dominate market].$value">
+						<label class="checkbox-inline"><input type="checkbox"
+							name="optradio21[Market and impact of new comers not well understood]">
+							Market and impact of new comers not well understood</label> <input
+							type="range"
+							name="optradio21[Market and impact of new comers not well understood].$value">
+					</div>
+				</div>
+			</li>
+
+			<li>Is your plant profitable and growing its market share?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio22[Plant is profitable and growing]" checked>
+							Plant is profitable and growing
+						</label> <input type="range"
+							name="optradio22[Plant is profitable and growing].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio22[Plant is profitable but not growing]">
+							Plant is profitable but not growing
+						</label><input type="range"
+							name="optradio22[Plant is profitable but not growing].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio22[Plant is not profitable but growing]">
+							Plant is not profitable but growing
+						</label><input type="range"
+							name="optradio22[Plant is not profitable but growing].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio22[Plant is not profitable and not growing]">
+							Plant is not profitable and not growing
+						</label><input type="range"
+							name="optradio22[Plant is not profitable and not growing].$value">
+					</div>
+				</div>
+			</li>
+
+			<li>By what measure and how would you characterise the
+				profitability of your production plant?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio23[Revenue per annum]" checked> Revenue per
+							annum
+						</label><input type="range" name="optradio23[Revenue per annum].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio23[Market expansion per annum]"> Market
+							expansion per annum
+						</label><input type="range"
+							name="optradio23[Market expansion per annum].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio23[Production output per annum]">
+							Production output per annum
+						</label><input type="range"
+							name="optradio23[Production output per annum].$value"> <label
+							class="checkbox-inline"> <input type="checkbox"
+							name="optradio23[Cost of production per unit]"> Cost of
+							production per unit
+						</label><input type="range"
+							name="optradio23[Cost of production per unit].$value">
+					</div>
+				</div>
+			</li>
+
+			<li>Is your production plant able to attract talented manpower
+				and maintain them, how would rate?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Talented manpower turnover]" checked>
+							Talented manpower turnover
+						</label> <input type="range"
+							name="optradio24[Talented manpower turnover].$value"> <label
+							class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Manpower highly motivated]"> Manpower
+							highly motivated
+						</label> <input type="range"
+							name="optradio24[Manpower highly motivated].$value"> <label
+							class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Manpower has longterm employment dreams]">
+							Manpower has longterm employment dreams
+						</label> <input type="range"
+							name="optradio24[Manpower has longterm employment dreams].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[High manpower turnover per annum]"> High
+							manpower turnover per annum
+						</label> <input type="range"
+							name="optradio24[High manpower turnover per annum].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Manpower leaves for better opportunities]">
+							Manpower leaves for better opportunities
+						</label> <input type="range"
+							name="optradio24[Manpower leaves for better opportunities].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Manpower turnover high to cut costs]">
+							Manpower turnover high to cut costs
+						</label> <input type="range"
+							name="optradio24[Manpower turnover high to cut costs].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Highly talented and skilled manpower not needed]">
+							Highly talented and skilled manpower not needed
+						</label> <input type="range"
+							name="optradio24[Highly talented and skilled manpower not needed].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio24[Company struggles to attract manpower]">
+							Company struggles to attract manpower
+						</label> <input type="range"
+							name="optradio24[Company struggles to attract manpower].$value">
+					</div>
+				</div>
+			</li>
+
+		</ol>
+	</div>
+	<!-- fifth -->
+	<ol></ol>
+
+	<div id="sixth" style="display: none">
+		<ol>
+			<li>Do you like the style of this questionnaire by far?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio25" checked> Yes
+						</label>
+					</div>
+					<div class="col-md-8">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio25"> No
+						</label>
+					</div>
+				</div>
+			</li>
+
+			<li>Has it been a worthwhile use of your time?
+				<div class="form-row">
+					<div class="col-md-4">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio26" checked> I guess so
+						</label>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio26"> Probably not
+						</label>
+					</div>
+					<div class="col-md-4">
+						<label class="radio-inline"> <input type="radio"
+							name="optradio26"> Don't know
+						</label>
+					</div>
+				</div>
+			</li>
+
+			<li>Can the information you have provided be used to propose
+				collaboration efforts with your Company with a view to support you
+				in solving your challenges and increase the Company's profitability?
+				<div class="form-row">
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[I believe it is possible]"> I believe it
+							is possible
+						</label> <input type="range"
+							name="optradio27[I believe it is possible].$value"> <label
+							class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[The Company would be interested]"> The
+							Company would be interested
+						</label> <input type="range"
+							name="optradio27[The Company would be interested].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[More interaction is required]"> More
+							interaction is required
+						</label> <input type="range"
+							name="optradio27[More interaction is required].$value"> <label
+							class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[The Company is not interested]"> The
+							Company is not interested
+						</label> <input type="range"
+							name="optradio27[The Company is not interested].$value">
+					</div>
+					<div class="col-md-6">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[The Company is fully sufficient]"> The
+							Company is fully sufficient
+						</label> <input type="range"
+							name="optradio27[The Company is fully sufficient].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[The Company is higky restricted]"> The
+							Company is higky restricted
+						</label> <input type="range"
+							name="optradio27[The Company is higky restricted].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[Collaboration will be very useful]">
+							Collaboration will be very useful
+						</label> <input type="range"
+							name="optradio27[Collaboration will be very useful].$value">
+						<label class="checkbox-inline"> <input type="checkbox"
+							name="optradio27[Collaboration would be expensive]">
+							Collaboration would be expensive
+						</label> <input type="range"
+							name="optradio27[Collaboration would be expensive].$value">
+					</div>
+				</div>
+			</li>
+
+
+			<li>Please describe your last impression of this questionnaire
+				and share any other comments with us: <textarea name="optradio28"
+					style="width: 70%; height: 100px;" cols="" rows="">Your information is highly valued and will be kept confidential.</textarea>
+				<br> <!-- <input type="submit"> -->
+			</li>
+		</ol>
+		<input value="Submit" type="submit" class="btn btn-primary">
+	</div>
+	<!-- sixth -->
+
+</form>
+</html>

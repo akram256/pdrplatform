@@ -1,0 +1,135 @@
+/* Remove the navbar's default margin-bottom and rounded borders  */
+/* margin-bottom: 0;
+		  border-radius: 0;
+		  }		    */
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.content {
+	max-width: 960px;
+	margin: auto;
+	background: white;
+	padding: 30px;
+}
+
+header {
+	width: 100%;
+	height: 10%;
+	background-color: #777;
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	magin: auto;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	align: center;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: -180px;
+}
+
+ol.c {
+	list-style-type: lower-roman;
+}
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+#footer {
+	position: relative;
+	width: auto;
+	clear: both;
+	text-align: center;
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none !important;
+	filter: progid: none !important;
+	filter: none !important;
+	background-image: none;
+	outline: 0;
+	opacity: 1;
+}
+
+.slidecontainer {
+	width: 70%; /* width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+	-webkit-appearance: none; /* Override default CSS styles */
+	appearance: none;
+	width: 100%; /* Full-width */
+	height: 25px; /* Specified height */
+	background: #d3d3d3; /* Grey background */
+	outline: none; /* Remove outline */
+	opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+	-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+	transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+	opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	width: 25px; /* Set a specific slider handle width */
+	height: 25px; /* Slider handle height */
+	background: #4CAF50; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+	width: 25px; /* Set a specific slider handle width */
+	height: 25px; /* Slider handle height */
+	background: #4CAF50; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+}
+
+.emailForm { // for the modal form
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+textarea { // for the modal form
+  height: 220px;
+}
+
+/*
+.form-control-range.squeezerange {
+	margin-top:-15px; 
+	margin-bottom:-10px; 
+	width:340px; 
+	height:70px;
+}*/
